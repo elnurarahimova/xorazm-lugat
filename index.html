@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'zbek-Xorazm Lug'ati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O'zbek-Xorazm Lug'ati</h1>
+        
+        <div class="toggle-container">
+            <label>
+                <input type="radio" name="direction" value="uz-xor" checked> O'zbekcha → Xorazmcha
+            </label>
+            <label>
+                <input type="radio" name="direction" value="xor-uz"> Xorazmcha → O'zbekcha
+            </label>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="So'zni kiriting..." onkeyup="searchWord()">
+        </div>
+
+        <div id="resultArea" class="result-card">
+            <p id="translatedWord">Tarjima shu yerda chiqadi...</p>
+        </div>
+
+        <div class="footer">
+            <p>Xorazm shevasining boy merosi</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
