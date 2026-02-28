@@ -230,7 +230,8 @@ const uzXor = {
 "chuvalchang":"chiyon",
 "sichqon":"sichon",
 "bolg'a":"cho'kish",
-"mana":"ina"
+"mana":"ina",
+"qalaysiz":"nichiksiz"
 }
 ;
 
@@ -481,4 +482,5 @@ function searchWord() {
     }
 
     resultDisplay.innerText = translation;
+
 }
