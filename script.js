@@ -458,7 +458,7 @@ const xorUz = {
 "chiyon":"chuvalchang",
 "sichon":"sichqon",
 "cho'kish":"bolg'a",
-"ina":"mana"
+"ina":"mana","nichiksiz":"qalaysiz"
 };
 for (let key in uzXor) {
     xorUz[uzXor[key]] = key;
@@ -484,3 +484,4 @@ function searchWord() {
     resultDisplay.innerText = translation;
 
 }
+
