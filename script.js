@@ -1,5 +1,5 @@
 const uzXor = {
-    "xovuch": "avuch", "po'psa": "abay", "ishton og'i": "av", "a'lo": "abzal",
+    "xovuch": "avuch", "po'psa": "abay", "ishton og'i": "av", "a'lo": "abzal","chiyabo'ri":"shog'al",
     "aka": "og'a", "oyi": "opa", "ha": "hova", "be'mor": "kasal",
     "dada": "aka", "tom": "uchak", "supurgi": "sipsa", "piyola": "kosa",
     "keldi": "galdi", "kerak": "garak", "yaxshimisiz": "jollimisiz",
@@ -458,7 +458,7 @@ const xorUz = {
 "chiyon":"chuvalchang",
 "sichon":"sichqon",
 "cho'kish":"bolg'a",
-"ina":"mana","nichiksiz":"qalaysiz","sunnikib":"qoqilib"
+"ina":"mana","nichiksiz":"qalaysiz","sunnikib":"qoqilib","shog'al":"chiyabo'ri"
 };
 for (let key in uzXor) {
     xorUz[uzXor[key]] = key;
@@ -484,5 +484,6 @@ function searchWord() {
     resultDisplay.innerText = translation;
 
 }
+
 
 
